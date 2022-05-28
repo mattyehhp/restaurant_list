@@ -4,6 +4,7 @@
 1. Node.js@14.16.0
 2. Express@4.16.4
 3. Express-handlebars@3.0.0
+4. Mongoose@5.9.7
 
 ## 安裝步驟
 1. git clone 
@@ -37,5 +38,9 @@ npm run dev
 2. 點擊可顯示詳細餐廳資訊
 
 3. 可透過輸入餐廳名稱或類別的關鍵字搜尋餐廳
+
+4. 連結MongoDB，可讀寫遠端資料庫
+
+5. 利用add a new restaurant新增餐廳至資料庫
 
 

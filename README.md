@@ -32,9 +32,9 @@ npm i mongoose@5.9.7
 npm i body-parser
 ```
 
-6. 在根目錄設定環境變數
+6. 在根目錄設定環境變數  
 MONGODB_URI = mongodb+srv://你的帳號:你的密碼@cluster0.rwy64fu.mongodb.net/restaurant-list?retryWrites=true&w=majority
-LC_CTYPE=UTF-8
+LC_CTYPE=UTF-8  
 可使用帳號:alpha 密碼:camp進行測試
 
 7. Seeder

@@ -5,6 +5,7 @@
 2. Express@4.16.4
 3. Express-handlebars@3.0.0
 4. Mongoose@5.9.7
+5. 
 
 ## 安裝步驟
 1. git clone 
@@ -26,16 +27,14 @@ npm install express@4.16.4
 npm i express-handlebars@3.0.0
 ```
 
-5. 安裝Mongoose, body-parser
+5. 安裝Mongoose, body-parser, method-override
 ```bash
-npm i mongoose@5.9.7
-npm i body-parser
+npm i mongoose@5.9.7 body-parser method-override
 ```
 
-6. 在家目錄設定環境變數  
+6. 設定環境變數  
 MONGODB_URI = mongodb+srv://你的帳號:你的密碼@cluster0.rwy64fu.mongodb.net/restaurant-list?retryWrites=true&w=majority
 LC_CTYPE=UTF-8  
-可使用帳號:alpha 密碼:camp進行測試
 
 7. Seeder
 ```bash

@@ -1,12 +1,12 @@
-<form action="/restaurants/{{ restaurant._id}}/edit" method="POST">
-    <input class="m-2" type="text" placeholder="name" name="name" value="{{ restaurant.name }}" style="display: block">
-    <input class="m-2" type="text" placeholder="category" name="category" value="{{ restaurant.category }}" style="display: block">
-    <input class="m-2" type="text" placeholder="image" name="image" value="{{ restaurant.image }}" style="display: block">
-    <input class="m-2" type="text" placeholder="location" name="location" value="{{ restaurant.location }}" style="display: block">
-    <input class="m-2" type="text" placeholder="phone" name="phone" value="{{ restaurant.phone }}" style="display: block">
-    <input class="m-2" type="text" placeholder="google_map" name="google_map" value="{{ restaurant.google_map }}" style="display: block">
-    <input class="m-2" type="number" placeholder="rating" name="rating" value="{{ restaurant.rating }}" style="display: block">
-    <input class="m-2" type="text" placeholder="description" name="description" value="{{ restaurant.description }}" style="display: block">
+<form action="/restaurants/{{restaurant._id}}?_method=PUT" method="POST">
+    <input class="m-2" type="text" placeholder="name" name="name" value="{{restaurant.name}}" style="display: block">
+    <input class="m-2" type="text" placeholder="category" name="category" value="{{restaurant.category}}" style="display: block">
+    <input class="m-2" type="text" placeholder="image" name="image" value="{{restaurant.image}}" style="display: block">
+    <input class="m-2" type="text" placeholder="location" name="location" value="{{restaurant.location}}" style="display: block">
+    <input class="m-2" type="text" placeholder="phone" name="phone" value="{{restaurant.phone}}" style="display: block">
+    <input class="m-2" type="text" placeholder="google_map" name="google_map" value="{{restaurant.google_map}}" style="display: block">
+    <input class="m-2" type="number" placeholder="rating" name="rating" value="{{restaurant.rating}}" style="display: block">
+    <input class="m-2" type="text" placeholder="description" name="description" value="{{restaurant.description}}" style="display: block">
     <button type="submit">Save</button>
     <a href="/">back</a>
 </form>
